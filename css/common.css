@@ -11,4 +11,28 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  padding: 15px 100px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  gap: 24px;
+  padding:20px;
+}
+
+.gallery-item {
+  list-style: none;
+  width: 360px; 
+  height: 300px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover; 
+  border-radius: 2px;
 }
